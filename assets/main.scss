@@ -1,0 +1,142 @@
+$bg-color: #282b28;
+$books-color: #114B5F;
+$footer-color: #3e5641;
+$info-color: #484D6D;
+$quote-color: #484d6d;
+$top-color: #114B5F;
+$works-color: #484d6d;
+
+@mixin jumbo-margin() {
+  border-radius: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+$font-russo: 'Russo One', sans-serif;
+
+body {
+  background-color: $bg-color;
+  margin-top: 20px;
+}
+
+.container  {
+  
+  #top {
+    background-color: $top-color;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0;
+  }
+  
+  #info {
+    background-color: $info-color; 
+    @include jumbo-margin();    
+  }
+
+  #books {
+    background-color: $books-color;
+    @include jumbo-margin();
+  }
+  
+  #quote {
+    background-color: $quote-color;
+    @include jumbo-margin();
+  }
+} 
+
+.my-footer  {
+  background-color: $footer-color;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  p {
+    color: #fff;
+    font-size: 18px;
+    margin: auto;
+  }
+
+  a:hover {
+    color: #fa7921;
+  }
+
+} // /.my-footer
+
+
+h1 {
+  font-family: $font-russo;
+  font-size: 60px;
+}
+
+h2 {
+  border-bottom: 3px solid;
+  font-family: $font-russo;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.citation {
+  border-left: 4px solid #333;
+  border-right: 4px solid #333;
+  margin-bottom: 40px;
+
+  p {
+    font-family: Georgia, serif;
+    font-size: 25px;
+  }
+
+} // .citation
+
+.main-content {
+  background-color: #fff;
+  padding-top: 20px;
+} // .main-content
+
+.photo {
+  display: block;
+  margin-bottom: 20px;
+  padding: 4px;
+
+  img {
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+} // .photo
+
+.bio {
+
+  h3 {
+    font-family: $font-russo;
+  }
+
+  ul > li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+} // .bio
+
+.works {
+  // background-color: $works-color;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  h3 {
+    font-family: $font-russo;  
+  }
+
+  ul li {
+    font-size: 20px;
+  }
+
+} // .works

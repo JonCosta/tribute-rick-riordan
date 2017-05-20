@@ -1,0 +1,90 @@
+body {
+  background-color: #282b28;
+  margin-top: 20px; }
+
+.container #top {
+  background-color: #114B5F;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 0; }
+.container #info {
+  background-color: #484D6D;
+  border-radius: 0;
+  margin-bottom: 0px;
+  margin-top: 0px; }
+.container #books {
+  background-color: #114B5F;
+  border-radius: 0;
+  margin-bottom: 0px;
+  margin-top: 0px; }
+.container #quote {
+  background-color: #484d6d;
+  border-radius: 0;
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
+.my-footer {
+  background-color: #3e5641;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .my-footer p {
+    color: #fff;
+    font-size: 18px;
+    margin: auto; }
+  .my-footer a:hover {
+    color: #fa7921; }
+
+h1 {
+  font-family: "Russo One", sans-serif;
+  font-size: 60px; }
+
+h2 {
+  border-bottom: 3px solid;
+  font-family: "Russo One", sans-serif;
+  font-size: 28px;
+  padding-bottom: 20px; }
+
+h3 {
+  font-size: 20px; }
+
+.citation {
+  border-left: 4px solid #333;
+  border-right: 4px solid #333;
+  margin-bottom: 40px; }
+  .citation p {
+    font-family: Georgia, serif;
+    font-size: 25px; }
+
+.main-content {
+  background-color: #fff;
+  padding-top: 20px; }
+
+.photo {
+  display: block;
+  margin-bottom: 20px;
+  padding: 4px; }
+  .photo img {
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; }
+
+.bio h3 {
+  font-family: "Russo One", sans-serif; }
+.bio ul > li {
+  font-size: 16px;
+  margin-bottom: 5px; }
+
+.works {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto; }
+  .works h3 {
+    font-family: "Russo One", sans-serif; }
+  .works ul li {
+    font-size: 20px; }
+
+/*# sourceMappingURL=main.css.map */
